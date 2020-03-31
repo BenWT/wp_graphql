@@ -1,0 +1,27 @@
+/**
+* ACF.
+*/
+
+.acf-minimal.acf-field {
+  padding: 0;
+}
+
+.acf-minimal.acf-field > .acf-label {
+  display: none;
+}
+
+.acf-minimal.acf-field > .acf-input .acf-fields.-border {
+  border: 0;
+}
+
+.acf-no-label.acf-field > .acf-label {
+  display: none;
+}
+
+.acf-no-child-label.acf-field .acf-input .acf-field {
+  padding: 0;
+}
+
+.acf-no-child-label.acf-field .acf-input .acf-field > .acf-label {
+  display: none;
+}

@@ -1,0 +1,31 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+!web/app/plugins/sitepress-multilingual-cms/
+web/app/mu-plugins/*/
+!web/app/plugins/amazon-s3-and-cloudfront-pro/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Dotenv
+.env
+.env.*
+!.env.sample
+
+# Composer
+vendor/*
+!vendor/.gitkeep
+
+# Node
+node_modules
+
+# SASS
+.sass-cache
+
+# Misc
+.DS_Store
